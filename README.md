@@ -23,4 +23,4 @@ A comprehensive **School ERP Portal** built using Node.js, Express, bcrypt for p
 - **Security**: Password hashing with bcrypt, JWT for authentication
 
 
-<img src="https://t.bkit.co/w_67187dc63a857.gif" />
+<img src="https://t.bkit.co/w_671896a2a9a64.gif" />
