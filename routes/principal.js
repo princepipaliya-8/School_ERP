@@ -1,9 +1,8 @@
 import express from "express";
-import auth from "../config/auth.js"
+import veryfy from "../config/auth.js"
+import { principalGet } from '../controller/principal.js'
 const principal = express.Router();
 
-principal.get("/", auth, (req, res) => {
-    res.send("Principal");
-})
+principal.get('/', veryfy(["Master"]), principalGet)
 
 export default principal
